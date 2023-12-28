@@ -2,19 +2,23 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Dapper</title>
-    <link rel="stylesheet" type="text/css" href="../CSS/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae9f6545e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css" />
 </head>
+
+
 <body>
+
     <!--Header - menu-->
     <header>
         
         <div class="header-content">
-            
+                
             <div class="logo">
                 
                 <h1 id="title">DAPPER<b>'S MAN</b></h1>    
@@ -22,82 +26,158 @@
 
             </div>
 
-            <div class="menu">
+            <div class="menu" id="show-menu">
 
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Fashion Trends</a></li>
-                        <li><a href="#">Style Tips</a></li>
-                        <li class="menu-selected"><a href="#" class="text-menu-selected">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#"> <i class="fa-solid fa-house"></i> Home</a></li>
+                        <li><a href="#"> <i class="fa-solid fa-shirt"></i> Fashion Trends</a></li>
+                        <li><a href="#"> <i class="fa-solid fa-user-tie"></i> Style Tips</a></li>
+                        <li class="menu-selected"><a href="#" class="text-menu-selected"> <i class="fa-solid fa-blog"></i> Blog</a></li>
+                        <li><a href="#"> <i class="fa-solid fa-address-book"></i> Contact</a></li>
                     </ul>
                 </nav>
 
             </div>
 
         </div>
+
+        <div id="icon-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
       
     </header>
+
     <!--Main - Portada-->
-    <main>
+    <div class="container-all" id="move-content"> 
 
-        <div class="container-cover">
-            <div class="container-info-cover">
-                <h1>Empowering men</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, provident consequatur nemo corporis eaque minus 
-                illo aspernatur molestiae maiores possimus quam corrupti.</p>
+        <main>
+
+            <div class="container-cover">
+                <div class="container-info-cover">
+                    <h1>Empowering men</h1>
+                    <p>"Style isn't just about clothes; it's a language without words. 
+                    It's the art of self-expression, the canvas of confidence, and the bridge 
+                    between who you are and who you aspire to be."</p>
+                </div>
             </div>
-        </div>
-        <!--contenido-->
-        <div class="container-content">
-            <article>
-                <h1>The Quintessential Guide to Elevated Men's Fashion</h1>
-                <h2>Exploring Masculine Elegance and Style Beyond the Ordinary</h2>
-                <p>In the realm of men's fashion, the exploration of style is an art form.
-                 As the sartorial landscape evolves, so do the nuances and subtleties that define
-                 modern masculinity. Embracing this evolution means delving into a realm where 
-                elegance and sophistication are the cornerstones.</p>
+    
+            <!--contenido-->
+            <div class="container-content">
+                <article>
+                    <h1>The Quintessential Guide to Elevated Men's Fashion</h1>
+                    <br />
+                    <br />
+                    <h2>Exploring Masculine Elegance and Style Beyond the Ordinary</h2>
+                    <p>In the realm of men's fashion, the exploration of style is an art form.
+                    As the sartorial landscape evolves, so do the nuances and subtleties that define
+                    modern masculinity. Embracing this evolution means delving into a realm where 
+                    elegance and sophistication are the cornerstones.</p>
                  
-                <p>The modern man's wardrobe has transcended mere functionality; it's a reflection
-                 of identity, a statement of confidence, and a canvas for self-expression.
-                 From the crisp lines of a tailored suit to the relaxed sophistication of streetwear,
-                the spectrum of men's fashion is expansive.</p>
+                    <p>The modern man's wardrobe has transcended mere functionality; it's a reflection
+                    of identity, a statement of confidence, and a canvas for self-expression.
+                    From the crisp lines of a tailored suit to the relaxed sophistication of streetwear,
+                    the spectrum of men's fashion is expansive.</p>
                 
-                <img src="img/2.jpg" alt="">
-                <br />
+                    <img src="img/2.jpg" alt="img del artículo de portada" />
+                    <br />
+                    <br />
+                    <h3>Embracing Classic Tailoring:</h3>
+                    <p>At the heart of refined men's fashion lies the essence of classic tailoring.
+                    The bespoke suit, with its precise measurements and fine details, is a symbol of
+                    timeless elegance. Its versatility effortlessly transitions from formal affairs 
+                    to power meetings, exuding confidence and authority.</p>
+                    <br />
+                    <br />
                 
-                <h3>Embracing Classic Tailoring:</h3>
-                <p>At the heart of refined men's fashion lies the essence of classic tailoring.
-                 The bespoke suit, with its precise measurements and fine details, is a symbol of
-                 timeless elegance. Its versatility effortlessly transitions from formal affairs 
-                to power meetings, exuding confidence and authority.</p>
-                <br />
-                
-                <h3>Unveiling the Power of Accessories:</h3>
-                <p>Accessories wield a transformative power in men's fashion. A carefully chosen tie,
-                 a meticulously crafted watch, or even the subtlety of a pocket square can elevate an 
-                 entire ensemble. Understanding the delicate balance between simplicity and statement 
-                pieces is key to mastering the art of accessorizing.</p>
-                <br />
+                    <h3>Unveiling the Power of Accessories:</h>
+                    <p>Accessories wield a transformative power in men's fashion. A carefully chosen tie,
+                    a meticulously crafted watch, or even the subtlety of a pocket square can elevate an 
+                    entire ensemble. Understanding the delicate balance between simplicity and statement 
+                    pieces is key to mastering the art of accessorizing.</p>
+                    <br />
+                    <br />
 
-                <h3>The Versatility of Casual Sophistication:</h3>
-                <p>In recent years, the fashion landscape has seen a paradigm shift towards casual 
-                 sophistication. The fusion of tailored pieces with relaxed elements has birthed a
-                 new form of style. The art lies in mastering the mix, creating a look that's effortless
-                yet refined.</p>
-                <br />
+                    <h3>The Versatility of Casual Sophistication:</h3>
+                    <p>In recent years, the fashion landscape has seen a paradigm shift towards casual 
+                    sophistication. The fusion of tailored pieces with relaxed elements has birthed a
+                    new form of style. The art lies in mastering the mix, creating a look that's effortless
+                    yet refined.</p>
+                    <br />
+                    <br />
 
-                <h3>Craftsmanship and Quality:</h3>
-                <p>Quality stands as a testament to true style. Understanding fabrics, cuts, and the 
-                 craftsmanship behind each garment is essential. Embracing quality not only ensures 
-                longevity but also conveys an appreciation for the artistry behind each piece.</p>
-                <br />
+                    <h3>Craftsmanship and Quality:</h3>
+                    <p>Quality stands as a testament to true style. Understanding fabrics, cuts, and the 
+                    craftsmanship behind each garment is essential. Embracing quality not only ensures 
+                    longevity but also conveys an appreciation for the artistry behind each piece.</p>
+                    <br />
 
-                <p>In the upcoming blog posts, we will delve into each facet, unraveling the secrets to 
-                crafting an impeccable wardrobe that is a testament to your unique style and personality.</p>
-            </ar    ticle>
-        </div>
-    </main>
+                    <p>In the upcoming blog posts, we will delve into each facet, unraveling the secrets to 
+                    crafting an impeccable wardrobe that is a testament to your unique style and personality.</p>
+                    <img src="img/logo.png" alt="logo" />
+                </article>
+
+                <div class="container-aside">
+
+                    <aside>
+                        <img src="img/4.jpg" alt="Breguet" />
+                        <h2>Two New Watches: Honoring a Revolutionary 1801 Invention!</h2>
+                        <p>The new watches from Breguet's Marine collection feature the tourbillon,
+                        a revolutionary invention from the early 19th century. 
+                        Breguet has been crafting watches since 1775.</p>
+                        <a href="#"><button>Read more</button></a>
+                    </aside>
+
+                    <aside>
+                        <img src="img/5.jpg" alt="Ralph Lauren" />
+                        <h2>11 MEN’S COLOGNES WOMEN LOVE: THE BEST FRAGRANCES TO ATTRACT FEMALES 2024</h2>
+                        <p>Hunting for colognes women love can be a bit of a guessing game. 
+                        A scent may smell good to you, but will the women in your life agree?
+                        <br /> 
+                        <br />
+                        To demystify the fragrance world, I went straight to the source to find out what
+                        colognes women love on men: my girlfriends. Aged between 23 and 39, my gal
+                        pals dished out the scoop on what colognes women love (and which to avoid, too).</p>
+                        <a href="#"><button>Read more</button></a>
+                    </aside>
+
+                    <aside>
+                        <img src="img/6.jpg" alt="Men's fashion" />
+                        <h2>45 BEST ONLINE CLOTHING STORES FOR MEN IN 2024</h2>
+                        <p>While there once was a time when shopping online meant risky purchases and cheap 
+                        quality, today is much different. Today you can find the biggest brands and the best
+                        designer ranges just a click away on your screen. From sharp suits to the newest 
+                        sneakers, you can shop for all your fashion needs right from the comfort of your home.
+                        Here are the best online clothing stores for men you need to visit today.</p>
+                        <a href="#"><button>Read more</button></a>
+                    </aside>
+
+                </div>
+            </div>
+        </main>
+    </div>
+    
+        <!--Footer-->
+    <div class="container-footer">
+        
+        <footer>
+            <div class="logo-footer">
+                <img src="img/logo-trasnsp.png" alt="logo-footer">
+            </div>
+
+            <div class="redes-footer">
+                <a href="#"><i class="fa-brands fa-facebook icon-redes-footer"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g icon-redes-footer"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram icon-redes-footer"></i></a>
+            </div>
+
+            <hr />
+            <h4>© 2023 Dapper's Man. Todos los derechos reservados.</h4>
+
+        </footer>
+
+    </div>
+
+    <script src="../JS/script.js"></script>
 </body>
 </html>
